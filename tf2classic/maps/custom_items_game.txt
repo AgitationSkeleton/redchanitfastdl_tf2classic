@@ -19,7 +19,7 @@
 			"item_type_name"			"Crowbar" 												// The kind of item it is, in very simplest terms! Probably the same as the name!
 			"item_description"			"Good for bashing a chucklehead's skull in."			// A funny description! Try to keep this short. It can be anything you want, but I'd try to stick with small quotes. Use TF2C's own descriptions as a style-guide.
 			"item_logname"				"crowbar"												// What you see pop up in the console! Probably just copy the internal name you set.
-			"item_iconname"				"crowbar"												// A kill-icon!! It's not exactly easy to add new kill-icons, so you can leave this empty or omit it entirely if you like. It just defaults to the weapon type you're using as a base, anyway.
+			"item_iconname"				"bat"												// A kill-icon!! It's not exactly easy to add new kill-icons, so you can leave this empty or omit it entirely if you like. It just defaults to the weapon type you're using as a base, anyway.
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar" 					// Backpack image. Just one needed! ALSO, how this is set up, it searches for a file named "w_crowbar_large.vmt", located in "materials/backpack/weapons/w_models"! Be wary!
 			"model_world"				"models/weapons/w_models/w_crowbar_scout.mdl"
 			"model_player"				"models/weapons/v_models/v_crowbar_scout.mdl"
@@ -34,10 +34,10 @@
 			}
 			"visuals"																			// This is just for consistency!
 			{
-				"sound_melee_miss"		"Weapon_Bat.Miss"
-				"sound_melee_hit"		"Weapon_Bat.HitFlesh"
-				"sound_melee_hit_world"	"Weapon_Crowbar.HitWorld"
-				"sound_burst"			"Weapon_Bat.MissCrit"
+				"melee_miss"	"Weapon_Wrench.Miss"
+				"melee_hit"		"Weapon_Wrench.HitFlesh"
+				"melee_hit_world"	"Weapon_Wrench.HitWorld"
+				"burst"			"Weapon_Wrench.MissCrit"
 			}
 			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
 			"drop_sound"				"#ui/item_metal_weapon_drop.wav"
@@ -54,7 +54,7 @@
 			"item_description"			"For bashing supply-crates, and anyone
 that dares try to steal them from me!"
 			"item_logname"				"crowbar"
-			"item_iconname"				"crowbar"
+			"item_iconname"				"shovel"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
 			"model_world"				"models/weapons/w_models/w_crowbar_soldier.mdl"			// This might seem pointless to have a copy for everyone, but remember no all-class melee anims exist. By default, every class holds their weapons differently! For worldmodels, yeah everyone has to have a unique one if you don't want clipping.
 			"model_player"				"models/weapons/v_models/v_crowbar_soldier.mdl"			// For viewmodels; [Soldier, Demo, Civilian] + [Pyro, Engineer, Medic] have the same hand sizes. Those two groups you can somewhat mix anims, too! [Scout, Heavy, Sniper, and Spy] you'll usually have to figure something else out for...
@@ -70,10 +70,10 @@ that dares try to steal them from me!"
 			}
 			"visuals"
 			{
-				"sound_melee_miss"		"Weapon_Bat.Miss"
-				"sound_melee_hit"		"Weapon_Bat.HitFlesh"
-				"sound_melee_hit_world"	"Weapon_Crowbar.HitWorld"
-				"sound_burst"			"Weapon_Bat.MissCrit"
+				"melee_miss"	"Weapon_Wrench.Miss"
+				"melee_hit"		"Weapon_Wrench.HitFlesh"
+				"melee_hit_world"	"Weapon_Wrench.HitWorld"
+				"burst"			"Weapon_Wrench.MissCrit"
 			}
 			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
 			"drop_sound"				"#ui/item_metal_weapon_drop.wav"
@@ -90,7 +90,7 @@ that dares try to steal them from me!"
 			"item_description"			"Be the difference between
 a rescue and a recovery"																			// NOWP v2.5.0 - All of Pyro's weapons have a description now, but it's neither spoken by an impartial narrator nor Pyro themselves. I'll let you figure it out.
 			"item_logname"				"crowbar"
-			"item_iconname"				"crowbar"
+			"item_iconname"				"fireaxe"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
 			"model_world"				"models/weapons/w_models/w_crowbar_pyro.mdl"
 			"model_player"				"models/weapons/v_models/v_crowbar_pyro.mdl"
@@ -105,10 +105,10 @@ a rescue and a recovery"																			// NOWP v2.5.0 - All of Pyro's weapon
 			}
 			"visuals"
 			{
-				"sound_melee_miss"		"Weapon_Bat.Miss"
-				"sound_melee_hit"		"Weapon_Bat.HitFlesh"
-				"sound_melee_hit_world"	"Weapon_Crowbar.HitWorld"
-				"sound_burst"			"Weapon_Bat.MissCrit"
+				"melee_miss"	"Weapon_Wrench.Miss"
+				"melee_hit"		"Weapon_Wrench.HitFlesh"
+				"melee_hit_world"	"Weapon_Wrench.HitWorld"
+				"burst"			"Weapon_Wrench.MissCrit"
 			}
 			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
 			"drop_sound"				"#ui/item_metal_weapon_drop.wav"
@@ -126,7 +126,7 @@ a rescue and a recovery"																			// NOWP v2.5.0 - All of Pyro's weapon
 			"item_description"			"They come wide at me, this'll pry their
 eyeballs right out 'a their noggins!"
 			"item_logname"				"crowbar"
-			"item_iconname"				"crowbar"
+			"item_iconname"				"bottle"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
 			"model_world"				"models/weapons/w_models/w_crowbar_demoman.mdl"
 			"model_player"				"models/weapons/v_models/v_crowbar_demoman.mdl"
@@ -141,15 +141,16 @@ eyeballs right out 'a their noggins!"
 			}
 			"visuals"
 			{
-				"sound_melee_miss"		"Weapon_Bat.Miss"
-				"sound_melee_hit"		"Weapon_Bat.HitFlesh"
-				"sound_melee_hit_world"	"Weapon_Crowbar.HitWorld"
-				"sound_burst"			"Weapon_Bat.MissCrit"
+				"melee_miss"	"Weapon_Wrench.Miss"
+				"melee_hit"		"Weapon_Wrench.HitFlesh"
+				"melee_hit_world"	"Weapon_Wrench.HitWorld"
+				"burst"			"Weapon_Wrench.MissCrit"
 				"sound_special1"		"Weapon_Null"											// From here on are sounds for the Bottle variant. But, I'm not actually switching this over, since in TF2C v2.0.2, the bottle has some hardcoded glass particles on hit when it's "broken"...
-				"sound_single_shot"		"Weapon_Bat.HitFlesh"
-				"sound_single_shot_npc"	"Weapon_Crowbar.HitWorld"
-				"sound_double_shot"		"Weapon_Bat.HitFlesh"
-				"sound_double_shot_npc"	"Weapon_Crowbar.HitWorld"
+				"melee_miss"	"Weapon_Wrench.Miss"
+				"melee_hit"		"Weapon_Wrench.HitFlesh"
+				"melee_hit_world"	"Weapon_Wrench.HitWorld"
+				"burst"			"Weapon_Wrench.MissCrit"
+				
 			}	
 			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
 			"drop_sound"				"#ui/item_metal_weapon_drop.wav"
@@ -167,7 +168,7 @@ eyeballs right out 'a their noggins!"
 			"item_description"			"Tiny little crowbar is good for crushing
 tiny little boxes... and tiny little heads!"
 			"item_logname"				"crowbar"
-			"item_iconname"				"crowbar"
+			"item_iconname"				"fireaxe"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
 			"model_world"				"models/weapons/w_models/w_crowbar_heavy.mdl"			// Heavy doesn't actually have the animations for non-Fist melees - so I had to improvise. It's on bip_hand_r instead!
 			"model_player"				"models/weapons/v_models/v_crowbar_heavy.mdl"
@@ -183,10 +184,10 @@ tiny little boxes... and tiny little heads!"
 			}
 			"visuals"
 			{
-				"sound_melee_miss"		"Weapon_Bat.Miss"
-				"sound_melee_hit"		"Weapon_Bat.HitFlesh"
-				"sound_melee_hit_world"	"Weapon_Crowbar.HitWorld"
-				"sound_burst"			"Weapon_Bat.MissCrit"
+				"melee_miss"	"Weapon_Wrench.Miss"
+				"melee_hit"		"Weapon_Wrench.HitFlesh"
+				"melee_hit_world"	"Weapon_Wrench.HitWorld"
+				"burst"			"Weapon_Wrench.MissCrit"
 				"animation_replacement"															// This is a bit weird - but this essentially makes him always do his crit-punch animation when swinging. As it so happens - the hand he holds the melee with is in that hand!
 				{
 					"ACT_MP_ATTACK_STAND_MELEE"					"ACT_MP_ATTACK_STAND_MELEE_SECONDARY"
@@ -211,7 +212,7 @@ tiny little boxes... and tiny little heads!"
 
 A good ol' number for construction n' repair!" 													// Take note of the Unique part at the end. If a weapon has an important function as a stock, it's good to clarify a weapon is a reskin of that.
 			"item_logname"				"crowbar"												// ALSO, no, that weird space is NOT a mistake. This is a hacky way to get the game to make a New-Line (Thanks to NotSuspect for finding this). In lieu of the inability to just add \n and have it work, anyway...
-			"item_iconname"				"crowbar"												// Please keep this in mind as you see these weird spaces all throughout this file! They'll mostly be used for readability and / or to separate flavor text from stats.
+			"item_iconname"				"wrench"												// Please keep this in mind as you see these weird spaces all throughout this file! They'll mostly be used for readability and / or to separate flavor text from stats.
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
 			"model_world"				"models/weapons/w_models/w_crowbar_engineer.mdl"
 			"model_player"				"models/weapons/v_models/v_crowbar_engineer.mdl"
@@ -226,11 +227,14 @@ A good ol' number for construction n' repair!" 													// Take note of the 
 			}
 			"visuals"
 			{
-				"sound_melee_miss"		"Weapon_Bat.Miss"
-				"sound_melee_hit"		"Weapon_Bat.HitFlesh"
-				"sound_melee_hit_world"	"Weapon_Crowbar.HitWorld"
-				"sound_burst"			"Weapon_Bat.MissCrit"
-				"sound_special1"		"Weapon_Crowbar.HitWorld"							// Some weapons have "unique" sounds - which can usually be found labeled special1, 2, and 3. This one is for building construction!
+				"melee_miss"	"Weapon_Wrench.Miss"
+				"melee_hit"		"Weapon_Wrench.HitFlesh"
+				"melee_hit_world"	"Weapon_Wrench.HitWorld"
+				"burst"			"Weapon_Wrench.MissCrit"
+				
+				"special1"		"Weapon_Wrench.HitBuilding_Success"
+				"special2"		"Weapon_Wrench.HitBuilding_Failure"
+				"sound_special1"		"Weapon_Wrench.HitBuilding_Success"							// Some weapons have "unique" sounds - which can usually be found labeled special1, 2, and 3. This one is for building construction!
 				"animation_replacement"
 				{
 					"ACT_MP_ATTACK_STAND_SECONDARY"				"ACT_MP_ATTACK_STAND_MELEE"
@@ -252,7 +256,7 @@ A good ol' number for construction n' repair!" 													// Take note of the 
 			"item_type_name"			"Crowbar"
 			"item_description"			"Truly, a good Doctor's veapon of choice!"
 			"item_logname"				"crowbar"
-			"item_iconname"				"crowbar"
+			"item_iconname"				"bonesaw"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
 			"model_world"				"models/weapons/w_models/w_crowbar_medic.mdl"
 			"model_player"				"models/weapons/v_models/v_crowbar_medic.mdl"
@@ -267,10 +271,10 @@ A good ol' number for construction n' repair!" 													// Take note of the 
 			}
 			"visuals"
 			{
-				"sound_melee_miss"		"Weapon_Bat.Miss"
-				"sound_melee_hit"		"Weapon_Bat.HitFlesh"
-				"sound_melee_hit_world"	"Weapon_Crowbar.HitWorld"
-				"sound_burst"			"Weapon_Bat.MissCrit"
+				"melee_miss"	"Weapon_Wrench.Miss"
+				"melee_hit"		"Weapon_Wrench.HitFlesh"
+				"melee_hit_world"	"Weapon_Wrench.HitWorld"
+				"burst"			"Weapon_Wrench.MissCrit"
 			}
 			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
 			"drop_sound"				"#ui/item_metal_weapon_drop.wav"
@@ -287,7 +291,7 @@ A good ol' number for construction n' repair!" 													// Take note of the 
 			"item_description"			"You'll need tools like these to break into,
 and then defend, the very best snipin' spots."
 			"item_logname"				"crowbar"
-			"item_iconname"				"crowbar"
+			"item_iconname"				"club"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
 			"model_world"				"models/weapons/w_models/w_crowbar_sniper.mdl"
 			"model_player"				"models/weapons/v_models/v_crowbar_sniper.mdl"
@@ -302,10 +306,10 @@ and then defend, the very best snipin' spots."
 			}
 			"visuals"
 			{
-				"sound_melee_miss"		"Weapon_Bat.Miss"
-				"sound_melee_hit"		"Weapon_Bat.HitFlesh"
-				"sound_melee_hit_world"	"Weapon_Crowbar.HitWorld"
-				"sound_burst"			"Weapon_Bat.MissCrit"
+				"melee_miss"	"Weapon_Wrench.Miss"
+				"melee_hit"		"Weapon_Wrench.HitFlesh"
+				"melee_hit_world"	"Weapon_Wrench.HitWorld"
+				"burst"			"Weapon_Wrench.MissCrit"
 			}
 			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
 			"drop_sound"				"#ui/item_metal_weapon_drop.wav"
@@ -323,7 +327,7 @@ and then defend, the very best snipin' spots."
 
 A tool for infiltration... and, self-defense."
 			"item_logname"				"crowbar"
-			"item_iconname"				"crowbar"
+			"item_iconname"				"knife"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
 			"model_world"				"models/weapons/w_models/w_crowbar_spy.mdl"
 			"model_player"				"models/weapons/v_models/v_crowbar_spy.mdl"				// This supports Spy's new bloody knife feature, too.
@@ -339,10 +343,10 @@ A tool for infiltration... and, self-defense."
 			}
 			"visuals"
 			{
-				"sound_melee_miss"		"Weapon_Bat.Miss"
-				"sound_melee_hit"		"Weapon_Bat.HitFlesh"
-				"sound_melee_hit_world"	"Weapon_Crowbar.HitWorld"
-				"sound_burst"			"Weapon_Bat.MissCrit"
+				"melee_miss"	"Weapon_Wrench.Miss"
+				"melee_hit"		"Weapon_Wrench.HitFlesh"
+				"melee_hit_world"	"Weapon_Wrench.HitWorld"
+				"burst"			"Weapon_Wrench.MissCrit"
 			}
 			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
 			"drop_sound"				"#ui/item_metal_weapon_drop.wav"
@@ -361,7 +365,7 @@ A tool for infiltration... and, self-defense."
 A classic memento, from your old crew.
 If only they were here to see you, now..."														// It should be noted this is just following the style-guides of the Wrench and the Knife. By default, the stock Umbrella doesn't have any description at all...
 			"item_logname"				"crowbar"
-			"item_iconname"				"crowbar"
+			"item_iconname"				"umbrella"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
 			"model_world"				"models/weapons/w_models/w_crowbar_civilian.mdl"
 			"model_player"				"models/weapons/v_models/v_crowbar_civilian.mdl"
@@ -377,10 +381,10 @@ If only they were here to see you, now..."														// It should be noted th
 			}
 			"visuals"
 			{
-				"sound_melee_miss"		"Weapon_Bat.Miss"
-				"sound_melee_hit"		"Weapon_Bat.HitFlesh"
-				"sound_melee_hit_world"	"Weapon_Crowbar.HitWorld"
-				"sound_burst"			"Weapon_Bat.MissCrit"
+				"melee_miss"	"Weapon_Wrench.Miss"
+				"melee_hit"		"Weapon_Wrench.HitFlesh"
+				"melee_hit_world"	"Weapon_Wrench.HitWorld"
+				"burst"			"Weapon_Wrench.MissCrit"
 				"animation_replacement"															// Theoretically would make the Boost animations play in world view, but still doesn't. Damn.
 				{
 					"ACT_MP_ATTACK_STAND_SECONDARYFIRE"			"ACT_MP_GESTURE_VC_FINGERPOINT_MELEE"
@@ -439,11 +443,6 @@ If only they were here to see you, now..."														// It should be noted th
 			"mouse_pressed_sound"		"#weapons/quake_ammo_pickup_remastered.wav"				
 			"drop_sound"				"#weapons/quake_rpg_reload_remastered.wav"
 		}
-//------------------------
-//------------------------
-//--QUAKE GL TEST - 3429--
-//------------------------
-//------------------------
 		"3429"
 		{
 			"name"						"TF_WEAPON_ORIGINAL_GL"									// This weapon is like, a mishmash of a lot of completely different elements - like a frankenstein's monster of Quake
@@ -457,7 +456,7 @@ If only they were here to see you, now..."														// It should be noted th
 			"item_type_name"			"#TF_Weapon_GrenadeLauncher"
 			"item_description"			"Thumps neat exploding bombs into the air."
 			"item_logname"				"quake_gl"
-			"item_iconname"				"quake_gl"
+			"item_iconname"				"tf_projectile_pipe"
 			"image_inventory"			"backpack/weapons/w_models/w_bet_grenadelauncher"
 			"model_world"				"models/weapons/w_models/w_bet_grenadelauncher.mdl"		// The model for this GL was scuffed as hell! I had to spend a while manually fixing the smoothing...	
 			"model_player"				"models/weapons/v_models/v_bet_grenadelauncher_demo.mdl" //('Smoothing' is basically what separates your curved surfaces from hard edges. Imagine a table with no edges at all - that's what this Grenade Launcher was like!)
@@ -487,10 +486,10 @@ If only they were here to see you, now..."														// It should be noted th
 			}
 			"visuals"																			// TO-DO: Investigate other surfaceprops to hook into if they remove deathmatch_grenade for some reason
 			{
-				"sound_single_shot"		"Weapon_QuakeGL.Single"
-				"sound_burst"			"Weapon_QuakeGL.SingleCrit"
-				"sound_reload"			"Weapon_QuakeRPG.Reload"
-				"sound_special1"		"Weapon_QuakeRPG.Explode"
+				"single_shot"	"Weapon_GrenadeLauncher.Single"
+				"reload"		"Weapon_GrenadeLauncher.WorldReload"
+				"special3"		"Weapon_GrenadeLauncher.ModeSwitch"
+				"burst"			"Weapon_GrenadeLauncher.SingleCrit"	
 //				"explosion_effect"		"rocket_explosion_classic"
 //				"trail_effect"			"rocket_trail_classic_b"								// Honestly I feel like the pipe bomb timers + TC should take priority over the visuals
 				"animation_replacement"
