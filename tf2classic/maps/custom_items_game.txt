@@ -439,6 +439,90 @@ If only they were here to see you, now..."														// It should be noted th
 			"mouse_pressed_sound"		"#weapons/quake_ammo_pickup_remastered.wav"				
 			"drop_sound"				"#weapons/quake_rpg_reload_remastered.wav"
 		}
+//------------------------
+//------------------------
+//--QUAKE GL TEST - 3429--
+//------------------------
+//------------------------
+		"3429"
+		{
+			"name"						"TF_WEAPON_ORIGINAL_GL"									// This weapon is like, a mishmash of a lot of completely different elements - like a frankenstein's monster of Quake
+			"prefab"					"weapon_grenade_launcher"
+			"show_in_armory"			"1"
+			"anim_slot"					"primary"												// Weird choice... but it's the anim set that best matches this weirdly shaped weapon!
+
+//			"propername"				"1"
+			"item_quality"				"rarity3"
+			"item_name"					"The Trailblazer"										// I admit, more of a Pyro weapon name, but I had to think of something since I couldn't just call it "The Pioneer" like I wanted to...
+			"item_type_name"			"#TF_Weapon_GrenadeLauncher"
+			"item_description"			"Thumps neat exploding bombs into the air."
+			"item_logname"				"quake_gl"
+			"item_iconname"				"quake_gl"
+			"image_inventory"			"backpack/weapons/w_models/w_bet_grenadelauncher"
+			"model_world"				"models/weapons/w_models/w_bet_grenadelauncher.mdl"		// The model for this GL was scuffed as hell! I had to spend a while manually fixing the smoothing...	
+			"model_player"				"models/weapons/v_models/v_bet_grenadelauncher_demo.mdl" //('Smoothing' is basically what separates your curved surfaces from hard edges. Imagine a table with no edges at all - that's what this Grenade Launcher was like!)
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"demoman"				"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"-5 0 -5"
+				"class select override vcd"				"taunt01"
+				"mod ammo per reload"					"1"
+			}
+			"attributes"
+			{
+				"centerfire projectile"
+				{
+					"attribute_class"	"centerfire_projectile"
+					"value"				"1"
+				}
+				"custom projectile model"
+				{
+					"attribute_class"	"custom_projectile_model"								// THE BOUNCE SOUNDS ARE HERE! They make use of some otherwise unused sound entries, so it might break in the future.
+					"value"				"models/weapons/w_models/w_bet_grenadelauncher_grenade.mdl"	// If you're curious why, they make used of an unused Surfaceproperty, "deathmatch_grenade", that has its own world collide sounds. This mod replaces those!
+				}
+			}
+			"visuals"																			// TO-DO: Investigate other surfaceprops to hook into if they remove deathmatch_grenade for some reason
+			{
+				"sound_single_shot"		"Weapon_QuakeGL.Single"
+				"sound_burst"			"Weapon_QuakeGL.SingleCrit"
+				"sound_reload"			"Weapon_QuakeRPG.Reload"
+				"sound_special1"		"Weapon_QuakeRPG.Explode"
+//				"explosion_effect"		"rocket_explosion_classic"
+//				"trail_effect"			"rocket_trail_classic_b"								// Honestly I feel like the pipe bomb timers + TC should take priority over the visuals
+				"animation_replacement"
+				{
+					"ACT_MP_ATTACK_STAND_PRIMARY"				"ACT_MP_ATTACK_STAND_SECONDARY"
+					"ACT_MP_ATTACK_CROUCH_PRIMARY"				"ACT_MP_ATTACK_CROUCH_SECONDARY"
+					"ACT_MP_ATTACK_SWIM_PRIMARY"				"ACT_MP_ATTACK_SWIM_SECONDARY"
+
+					"ACT_MP_RELOAD_STAND_PRIMARY_END"			"ACT_MP_RELOAD_STAND_SECONDARY_END"	// Yeah, I've got nothin'
+					"ACT_MP_RELOAD_CROUCH_PRIMARY_END"			"ACT_MP_RELOAD_CROUCH_SECONDARY_END"
+					"ACT_MP_RELOAD_SWIM_PRIMARY_END"			"ACT_MP_RELOAD_SWIM_SECONDARY_END"
+				}
+			}
+			"visuals_red"
+			{
+// 				"explosion_effect_crit"	"explosion_shrapnel_PARENT_red_crit"
+			}
+			"visuals_blu"
+			{
+// 				"explosion_effect_crit"	"explosion_shrapnel_PARENT_blue_crit"
+			}
+			"visuals_grn"
+			{
+//				"explosion_effect_crit"	"explosion_shrapnel_PARENT_green_crit"
+			}
+			"visuals_ylw"
+			{
+//				"explosion_effect_crit"	"explosion_shrapnel_PARENT_yellow_crit"
+			}
+			"mouse_pressed_sound"		"#weapons/quake_ammo_pickup_remastered.wav"
+			"drop_sound"				"#weapons/quake_rpg_reload_remastered.wav"
+		}
 		"4000"
 		{
 			"name"						"Medic Shotgun"
