@@ -64,8 +64,8 @@
 			}
 			"visuals"
 			{
-				"sound_single_shot"		"Weapon_RescueRanger.Single"
-				"sound_burst"    		"Weapon_RescueRanger.SingleCrit"
+				"sound_single_shot"		"Weapon_CoilGun.Single"
+				"sound_burst"    		"Weapon_CoilGun.Double"
 			}
 			"mouse_pressed_sound"		"#ui/item_heavy_gun_pickup.wav"
 			"drop_sound"				"#ui/item_heavy_gun_drop.wav"
