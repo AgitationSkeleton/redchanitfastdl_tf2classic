@@ -10,11 +10,13 @@
 			"item_slot"					"primary"
 			"item_name"					"The Rescue Ranger"
 			"item_type_name"			"Shotgun"
+			"item_quality"	"unique"
 			"item_logname"				"rescue_ranger"
 			"image_inventory"			"backpack\weapons\c_models\c_tele_shotgun\c_tele_shotgun"
 			"model_world"				"models/weapons/w_models/w_tele_shotgun.mdl"
 			"model_player"				"models/weapons/v_models/v_tele_shotgun_engineer.mdl"
 			"attach_to_hands"			"2"
+			"item_description"	"Briefly existed during the private beta when a programmer who mained Engineer got frustrated with defending on an early 'vip_harbor.' The Heal on Hit attribute appears to be broken or removed."
 			"used_by_classes"
 			{
 				"engineer"				"1"
@@ -82,10 +84,10 @@
 			"show_in_armory"			"1"														// IMPORTANT IMPORTANT IMPORTANT!!! You NEED this for unlockables!!! Without this, it won't appear in your inventory to select!
 
 //			"item_name_color"			"204 204 250 255"										// TO-DO: Find a new color for this and apply it to EVERY weapon!! A personal color...
-			"item_quality"				"rarity3"												// NEW As of NOWP v2.2.5 - a new-ish item quality! It's an off-lavender, not too dissimilar from Stock, and not as visually loud as the Yellow of Unique Quality
+			"item_quality"				"unique"												// NEW As of NOWP v2.2.5 - a new-ish item quality! It's an off-lavender, not too dissimilar from Stock, and not as visually loud as the Yellow of Unique Quality
 			"item_name"					"The Crowbar" 											// The name of the item.
 			"item_type_name"			"Crowbar" 												// The kind of item it is, in very simplest terms! Probably the same as the name!
-			"item_description"			"Good for bashing a chucklehead's skull in."			// A funny description! Try to keep this short. It can be anything you want, but I'd try to stick with small quotes. Use TF2C's own descriptions as a style-guide.
+			"item_description"			""			// A funny description! Try to keep this short. It can be anything you want, but I'd try to stick with small quotes. Use TF2C's own descriptions as a style-guide.
 			"item_logname"				"crowbar"												// What you see pop up in the console! Probably just copy the internal name you set.
 			"item_iconname"				"bat"												// A kill-icon!! It's not exactly easy to add new kill-icons, so you can leave this empty or omit it entirely if you like. It just defaults to the weapon type you're using as a base, anyway.
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar" 					// Backpack image. Just one needed! ALSO, how this is set up, it searches for a file named "w_crowbar_large.vmt", located in "materials/backpack/weapons/w_models"! Be wary!
@@ -116,11 +118,10 @@
 			"prefab"					"weapon_shovel"
 			"show_in_armory"			"1"
 
-			"item_quality"				"rarity3"
+			"item_quality"				"unique"
 			"item_name"					"The Crowbar"
 			"item_type_name"			"Crowbar"
-			"item_description"			"For bashing supply-crates, and anyone
-that dares try to steal them from me!"
+			"item_description"			""
 			"item_logname"				"crowbar"
 			"item_iconname"				"shovel"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
@@ -152,11 +153,10 @@ that dares try to steal them from me!"
 			"prefab"					"weapon_fireaxe"
 			"show_in_armory"			"1"
 
-			"item_quality"				"rarity3"
+			"item_quality"				"unique"
 			"item_name"					"The Crowbar"
 			"item_type_name"			"Crowbar"
-			"item_description"			"Be the difference between
-a rescue and a recovery"																			// NOWP v2.5.0 - All of Pyro's weapons have a description now, but it's neither spoken by an impartial narrator nor Pyro themselves. I'll let you figure it out.
+			"item_description"			""																			// NOWP v2.5.0 - All of Pyro's weapons have a description now, but it's neither spoken by an impartial narrator nor Pyro themselves. I'll let you figure it out.
 			"item_logname"				"crowbar"
 			"item_iconname"				"fireaxe"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
@@ -188,11 +188,10 @@ a rescue and a recovery"																			// NOWP v2.5.0 - All of Pyro's weapon
 			"item_class"				"tf_weapon_club"										// This is set to Kukri instead of Bottle to fix some visual issues with the weapon. Taunts re-added via custom response file!
 			"show_in_armory"			"1"
 
-			"item_quality"				"rarity3"
+			"item_quality"				"unique"
 			"item_name"					"The Crowbar"
 			"item_type_name"			"Crowbar"
-			"item_description"			"They come wide at me, this'll pry their
-eyeballs right out 'a their noggins!"
+			"item_description"			""
 			"item_logname"				"crowbar"
 			"item_iconname"				"bottle"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
@@ -230,11 +229,10 @@ eyeballs right out 'a their noggins!"
 			"item_class"				"tf_weapon_fireaxe"										// NOWP v2.5.0 - Decided to change Heavy's non-punching Melees to fireaxe internals, to fix weird behavior with them not dropping as weapons in world view!
 			"show_in_armory"			"1"
 
-			"item_quality"				"rarity3"
+			"item_quality"				"unique"
 			"item_name"					"The Crowbar"
 			"item_type_name"			"Crowbar"
-			"item_description"			"Tiny little crowbar is good for crushing
-tiny little boxes... and tiny little heads!"
+			"item_description"			""
 			"item_logname"				"crowbar"
 			"item_iconname"				"fireaxe"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
@@ -273,12 +271,10 @@ tiny little boxes... and tiny little heads!"
 			"show_in_armory"			"1"
 			"anim_slot"					"secondary"												// This is a much more neutral position to hold stuff in than stock melee - so we'll use this instead!
 
-			"item_quality"				"rarity3"
+			"item_quality"				"unique"
 			"item_name"					"The Crowbar"
 			"item_type_name"			"Crowbar"
-			"item_description"			"Functions identically to the Wrench
-
-A good ol' number for construction n' repair!" 													// Take note of the Unique part at the end. If a weapon has an important function as a stock, it's good to clarify a weapon is a reskin of that.
+			"item_description"			"Functions identically to the Wrench." 													// Take note of the Unique part at the end. If a weapon has an important function as a stock, it's good to clarify a weapon is a reskin of that.
 			"item_logname"				"crowbar"												// ALSO, no, that weird space is NOT a mistake. This is a hacky way to get the game to make a New-Line (Thanks to NotSuspect for finding this). In lieu of the inability to just add \n and have it work, anyway...
 			"item_iconname"				"wrench"												// Please keep this in mind as you see these weird spaces all throughout this file! They'll mostly be used for readability and / or to separate flavor text from stats.
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
@@ -319,10 +315,10 @@ A good ol' number for construction n' repair!" 													// Take note of the 
 			"prefab"					"weapon_bonesaw"
 			"show_in_armory"			"1"
 
-			"item_quality"				"rarity3"
+			"item_quality"				"unique"
 			"item_name"					"The Crowbar"
 			"item_type_name"			"Crowbar"
-			"item_description"			"Truly, a good Doctor's veapon of choice!"
+			"item_description"			""
 			"item_logname"				"crowbar"
 			"item_iconname"				"bonesaw"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
@@ -353,11 +349,10 @@ A good ol' number for construction n' repair!" 													// Take note of the 
 			"prefab"					"weapon_club"
 			"show_in_armory"			"1"
 
-			"item_quality"				"rarity3"
+			"item_quality"				"unique"
 			"item_name"					"The Crowbar"
 			"item_type_name"			"Crowbar"
-			"item_description"			"You'll need tools like these to break into,
-and then defend, the very best snipin' spots."
+			"item_description"			""
 			"item_logname"				"crowbar"
 			"item_iconname"				"club"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
@@ -388,12 +383,10 @@ and then defend, the very best snipin' spots."
 			"prefab"					"weapon_knife"											// YES, you can backstab with this! Yes, it looks scuffed, but shh.
 			"show_in_armory"			"1"
 
-			"item_quality"				"rarity3"
+			"item_quality"				"unique"
 			"item_name"					"The Crowbar"
 			"item_type_name"			"Crowbar"
-			"item_description"			"Functions identically to the Knife
-
-A tool for infiltration... and, self-defense."
+			"item_description"			"Functions identically to the Knife."
 			"item_logname"				"crowbar"
 			"item_iconname"				"knife"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
@@ -425,13 +418,10 @@ A tool for infiltration... and, self-defense."
 			"prefab"					"weapon_umbrella"
 			"show_in_armory"			"1"
 
-			"item_quality"				"rarity3"
+			"item_quality"				"unique"
 			"item_name"					"The Crowbar"
 			"item_type_name"			"Crowbar"
-			"item_description"			"Functions identically to the Umbrella
-
-A classic memento, from your old crew.
-If only they were here to see you, now..."														// It should be noted this is just following the style-guides of the Wrench and the Knife. By default, the stock Umbrella doesn't have any description at all...
+			"item_description"			"Functions identically to the Umbrella."														// It should be noted this is just following the style-guides of the Wrench and the Knife. By default, the stock Umbrella doesn't have any description at all...
 			"item_logname"				"crowbar"
 			"item_iconname"				"umbrella"
 			"image_inventory"			"backpack/weapons/w_models/w_crowbar"
@@ -470,6 +460,7 @@ If only they were here to see you, now..."														// It should be noted th
 			"show_in_armory"			"1"
 
 			"propername"				"1"
+			"item_quality"	"unique"
 			"item_name"					"Original"
 			"item_type_name"			"#TF_Weapon_RocketLauncher"
 			"item_description"			"For when a grenade positively, absolutely, has to be there on time."
@@ -519,7 +510,7 @@ If only they were here to see you, now..."														// It should be noted th
 			"anim_slot"					"primary"												// Weird choice... but it's the anim set that best matches this weirdly shaped weapon!
 
 //			"propername"				"1"
-			"item_quality"				"rarity3"
+			"item_quality"				"unique"
 			"item_name"					"The Trailblazer"										// I admit, more of a Pyro weapon name, but I had to think of something since I couldn't just call it "The Pioneer" like I wanted to...
 			"item_type_name"			"#TF_Weapon_GrenadeLauncher"
 			"item_description"			"Thumps neat exploding bombs into the air."
@@ -695,6 +686,7 @@ If only they were here to see you, now..."														// It should be noted th
 			"item_quality"				"normal"
 			"item_name"					"Overhealer"
 			"item_type_name"			"#TF_Weapon_Medigun"
+			"item_description"			"An experimental Medi-Gun from Beta 4. No Uber, but increased maximum overheal and healing speed."
 			"propername"				"1"
 			
 			"min_ilevel"				"5"
@@ -741,9 +733,10 @@ If only they were here to see you, now..."														// It should be noted th
 	//		"baseitem"					"1"
 			
 			"item_slot"					"primary"
-			"item_quality"				"normal"
+			"item_quality"				"unique"
 			"item_name"					"Poacher's Pride"
 			"item_type_name"			"#TF_Weapon_SniperRifle"
+			"item_description"			"The predecessor to the Hunting Rifle."
 			"propername"				"1"
 			
 			"min_ilevel"				"5"
@@ -815,10 +808,10 @@ If only they were here to see you, now..."														// It should be noted th
 	//		"baseitem"					"1"
 			
 			"item_slot"					"melee"
-			"item_quality"				"normal"
+			"item_quality"				"unique"
 			"item_name"					"Lead Pipe"
 			"item_type_name"			"Lead Pipe"
-			"item_description"			"Your luck runs out."
+			"item_description"			"Scrapped melee weapon from the removed Deathmatch map 'dm_lineage.'"
 			"propername"				"1"
 			
 			"min_ilevel"				"5"
@@ -918,16 +911,19 @@ If only they were here to see you, now..."														// It should be noted th
 				"can_deal_long_distance_damage"	"1"
 			}
 			"item_class"	"tf_weapon_shotgun"
+			"quality" "unique"
+			"propername"	"1"
+			"item_description"	"The Deathmatch Mercenary's weapon of choice; Now yours to wield after he moved away."
 			"craft_class"	"weapon"
 			"craft_material_type"	"weapon"
-			"item_logname"	"supershotgun"
-			"item_iconname"	"doubleshotgun"
+			"item_logname"	"doublebarrel"
+			"item_iconname"	"doublebarrel"
 			"item_type_name"	"#TF_Weapon_Shotgun"
 			"item_name"	"Super Shotgun"
 			"show_in_armory"			"1"
 			"item_slot"	"secondary"
 			"anim_slot"	"secondary"
-			"item_quality"	"rarity3"
+			"item_quality"	"unique"
 			"propername"	"1"
 			"min_ilevel"	"8"
 			"max_ilevel"	"8"
@@ -943,60 +939,45 @@ If only they were here to see you, now..."														// It should be noted th
 			}
 			"attributes"
 			{
-				"bullets per shot bonus"
+				"bullets per shot bonus hidden"
 				{
 					"attribute_class"	"mult_bullets_per_shot"
 					"value"	"2.0"
 				}
-				"fire rate bonus"
+				"fire rate bonus hidden"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value"	"0.6"
+					"value"	"1.1"
 				}
-				"Reload time decreased"
+				"Reload time decreased hidden"
 				{
 					"attribute_class"	"mult_reload_time"
-					"value"	"1.4"
+					"value"	"0.8"
 				}
-				"spread penalty"
+				"spread penalty hidden"
 				{
 					"attribute_class"	"mult_spread_scale"
 					"value"	"2.0"
 				}
-				"clip size penalty"
+				"clip size penalty hidden"
 				{
 					"attribute_class"	"mult_clipsize"
 					"value"	"0.2"
 				}
-				"maxammo secondary reduced"
+				"maxammo primary reduced hidden"
 				{
-					"attribute_class"	"mult_maxammo_secondary"
+					"attribute_class"	"mult_maxammo_primary"
 					"value"	"0.5"
 				}
-				"scattergun no reload single"
+				"scattergun no reload single hidden"
 				{
 					"attribute_class"	"set_scattergun_no_reload_single"
 					"value"	"1"
 				}
-				"spawn ammo override"
+				"spawn ammo override hidden"
 				{
 					"attribute_class"	"mod_spawn_ammo_override"
 					"value"	"8"
-				}
-				"scattergun has knockback"
-				{
-					"attribute_class"	"set_scattergun_has_knockback"
-					"value"				"1"
-				}
-				"apply self knockback hidden"
-				{
-					"attribute_class"	"apply_self_knockback"
-					"value"				"260"
-				}
-				"weapon enemy knockback mod mult hidden"
-				{
-					"attribute_class"	"weapon_enemy_knockback_mod"
-					"value"				"0.2"
 				}
 			}
 			"visuals"
@@ -1031,7 +1012,7 @@ If only they were here to see you, now..."														// It should be noted th
 			"item_logname"	"stengun"
 			"item_slot"	"secondary"
 			"show_in_armory"	"1"
-			"item_quality"	"normal"
+			"item_quality"	"unique"
 			"propername"	"1"
 			"min_ilevel"	"8"
 			"max_ilevel"	"8"
@@ -1115,10 +1096,103 @@ If only they were here to see you, now..."														// It should be noted th
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"	"ui/item_light_gun_drop.wav"
+		}
+		"9034"
+		{
+			"name"						"The Old Fishwhacker"
+			"prefab"					"weapon_club"
+			"show_in_armory"			"1"
+			"item_logname"				"fishwhacker"
+			"item_iconname"				"fishwhacker"
+			"item_type_name"			"#TF_Weapon_Fishwhacker_Type"
+			"item_name"					"Old Fishwhacker"
+			"item_description"	"During the private beta, this weapon used to shake the victim's view."
+			"item_quality"	"unique"
+			"propername"				"1"
+			"image_inventory"			"backpack/weapons/w_models/w_fishwhacker"
+			"model_world"				"models/weapons/w_models/w_fishwhacker.mdl"
+			"model_player"				"models/weapons/v_models/v_fishwhacker_sniper.mdl"
+			"attach_to_hands"			"2"
+			"attributes"
+			{
+				"view punch on hit"
+				{
+					"attribute_class"	"add_viewpunch_onhit"
+					"value"	"1"
+				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"0.75"
+				}
+				"fire rate penalty"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"1.2"
+				}
+			}
+			"visuals"
+			{
+				"sound_melee_hit"		"Weapon_Fishwhacker.HitFlesh"
+				"sound_melee_hit_world"	"Weapon_Fishwhacker.HitWorld"
+			}
+			"mouse_pressed_sound"		"#ui/item_wood_pole_pickup.wav"
+			"drop_sound"				"#ui/item_wood_weapon_drop.wav"
+		}		
+		"9035"
+		{
+			"name"						"Makeshift Mutilator"
+			"item_name"					"Makeshift Mutilator"
+			"propername"				"1"
+			"prefab"					"weapon_flamethrower"
+			"baseitem"					"1"
+			"item_logname"				"makeshiftmutilator"
+			"item_iconname"				"makeshiftmutilator"
+			"item_slot"					"primary"
+			"item_quality"				"unique"			
+			"item_description"			"A short-lived weapon from the private beta."
+			"model_world"				"models/weapons/w_models/w_chemthrower.mdl"
+			"model_player"				"models/weapons/v_models/v_chemthrower_pyro.mdl"
+			"image_inventory"			"backpack/weapons/w_models/w_chemthrower"
+			"attach_to_hands"			"2"
+			"baseitem"					"0"
+			"show_in_armory"	"1"
+			"used_by_classes"
+			{
+				"pyro"					"1"
+			}			
+			"attributes"
+			{
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"				"1.25"
+				}
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"0.5"
+				}				
+				"airblast disabled"
+				{
+					"attribute_class"	"airblast_disabled"
+					"value"				"1"
+				}
+				"flame_spread_degree"
+				{
+					"attribute_class"	"flame_spread_degree"
+					"value"	"-0.50"
+				}
+				"maxammo primary increased"
+				{
+					"attribute_class"	"mult_maxammo_primary"
+					"value"				"0.5"
+				}				
+			}
 		}		
 		"9036"
 		{
-			"name"	"Old RPG"
+			"name"	"Old R.P.G."
 			"capabilities"
 			{
 				"nameable"	"1"
@@ -1137,8 +1211,8 @@ If only they were here to see you, now..."														// It should be noted th
 			"craft_material_type"	"weapon"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RocketLauncher"
-			"item_name"	"Old RPG"
-			"item_description"			"Old version of the RPG from Beta 4."			
+			"item_name"	"Old R.P.G."
+			"item_description"			"Old version of the R.P.G. from Beta 4."			
 			"item_logname"	"rpg"
 			"item_slot"	"primary"
 			"item_quality"	"unique"
@@ -1192,6 +1266,7 @@ If only they were here to see you, now..."														// It should be noted th
 			"prefab"					"valve weapon_bonesaw"
 			"item_logname"				"ubersaw"
 			"item_iconname"				"ubersaw"
+			"item_quality"	"unique"
 			"show_in_armory"			"1"
 			"item_type_name"			"#TF_Weapon_Syringe"
 			"item_name"					"Old Syringe"
@@ -1218,11 +1293,11 @@ If only they were here to see you, now..."														// It should be noted th
 					"attribute_class"	"set_weapon_mode"
 					"value"	"1"
 				}
-				"add uber charge on hit charge rate modifier"
-				{
-					"attribute_class"	"add_onhit_ubercharge_charge_rate_modifier"
-					"value"				"1"
-				}
+				//"add uber charge on hit charge rate modifier"
+				//{
+				//	"attribute_class"	"add_onhit_ubercharge_charge_rate_modifier"
+				//	"value"				"1"
+				//}
 				"special taunt"
 				{
 					"attribute_class"	"special_taunt"
