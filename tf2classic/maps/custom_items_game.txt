@@ -628,7 +628,7 @@
 			
 			"item_slot"					"primary"
 			"anim_slot"					"secondary"
-			"item_quality"				"normal"
+			"item_quality"				"unique"
 			"item_name"					"Cyclops"
 			"item_type_name"			"#TF_Weapon_GrenadeLauncher"
 			"item_description"			"I had me good eye on ye the whole time!"
