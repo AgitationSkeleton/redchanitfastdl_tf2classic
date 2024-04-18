@@ -683,7 +683,7 @@
 	//		"baseitem"					"1"
 			
 			"item_slot"					"secondary"
-			"item_quality"				"normal"
+			"item_quality"				"unique"
 			"item_name"					"Overhealer"
 			"item_type_name"			"#TF_Weapon_Medigun"
 			"item_description"			"An experimental Medi-Gun from Beta 4. No Uber, but increased maximum overheal and healing speed."
