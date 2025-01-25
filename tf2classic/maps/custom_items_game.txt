@@ -620,7 +620,7 @@
 		}
 		"4001"
 		{
-			"name"						"Cyclops"
+			"name"						"Old Cyclops"
 			"item_class"				"tf_weapon_grenadelauncher"
 			"show_in_armory"			"1"
 			
