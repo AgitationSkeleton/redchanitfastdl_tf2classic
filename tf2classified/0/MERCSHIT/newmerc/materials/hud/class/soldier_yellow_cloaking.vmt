@@ -1,0 +1,12 @@
+"Refract"
+{
+	"$refracttinttexture" "hud/class/class_mercyellow_cloak"
+ 	"$normalmap" "hud/class/class_merc_normal"
+
+	"$translucent" "1"
+	"$no_fullbright" 1
+	"$ignorez" 1
+
+	"$refractamount" "0.02"
+	"$bluramount" "1"
+}

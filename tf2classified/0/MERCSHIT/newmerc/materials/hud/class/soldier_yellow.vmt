@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "hud/class/class_mercyellow"
+
+	"$translucent" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+
+	"$vertexcolor" 1
+	"%keywords" "tf"
+}

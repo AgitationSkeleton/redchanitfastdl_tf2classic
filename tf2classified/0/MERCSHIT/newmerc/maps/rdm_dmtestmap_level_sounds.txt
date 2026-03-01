@@ -1,0 +1,3029 @@
+
+"Soldier.Death"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"			
+	{
+		"wave"		"vo/customclass/mercenary/mercenary_painsevere01.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_painsevere02.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_painsevere03.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_painsevere04.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_painsevere05.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_painsevere06.mp3"
+	}
+}
+
+"Soldier.CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"			
+	{
+		"wave"		"vo/customclass/mercenary/mercenary_paincrticialdeath01.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_paincrticialdeath02.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_paincrticialdeath03.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_paincrticialdeath04.mp3"
+	}
+}
+
+"Soldier.MeleeDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"			
+	{
+		"wave"		"vo/customclass/mercenary/mercenary_paincrticialdeath01.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_paincrticialdeath02.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_paincrticialdeath03.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_paincrticialdeath04.mp3"
+	}
+}
+
+"Soldier.ExplosionDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"			
+	{
+		"wave"		"vo/customclass/mercenary/mercenary_painsharp01.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_painsharp02.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_painsharp03.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_painsharp04.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_painsharp05.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_painsharp06.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_painsharp07.mp3"
+		"wave"		"vo/customclass/mercenary/mercenary_painsharp08.mp3"
+	}
+}
+
+"Soldier.ActivateCharge01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_berserk01.mp3"
+}
+
+"Soldier.ActivateCharge02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_berserk02.mp3"
+}
+
+"Soldier.ActivateCharge03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_berserk03.mp3"
+}
+
+"Soldier.AutoCappedControlPoint01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_specialcompleted01.mp3"
+}
+
+"Soldier.AutoCappedControlPoint02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_specialcompleted01.mp3"
+}
+
+"Soldier.AutoCappedControlPoint03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_specialcompleted01.mp3"
+}
+
+"Soldier.AutoCappedIntelligence01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_autocappedintelligence01.mp3"
+}
+
+"Soldier.AutoCappedIntelligence02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_autocappedintelligence02.mp3"
+}
+
+"Soldier.AutoCappedIntelligence03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_autocappedintelligence03.mp3"
+}
+
+"Soldier.AutoDejectedTie01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization01.mp3"
+}
+
+"Soldier.AutoDejectedTie02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization02.mp3"
+}
+
+"Soldier.AutoDejectedTie03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization03.mp3"
+}
+
+"Soldier.AutoOnFire01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_autoonfire01.mp3"
+}
+
+"Soldier.AutoOnFire02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_autoonfire02.mp3"
+}
+
+"Soldier.AutoOnFire03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_autoonfire03.mp3"
+}
+
+"Soldier.BattleCry01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_battlecry01.mp3"
+}
+
+"Soldier.BattleCry02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_battlecry02.mp3"
+}
+
+"Soldier.BattleCry03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_battlecry03.mp3"
+}
+
+"Soldier.BattleCry04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_battlecry04.mp3"
+}
+
+"Soldier.BattleCry05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_battlecry05.mp3"
+}
+
+"Soldier.BattleCry06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_battlecry06.mp3"
+}
+
+"Soldier.Cheers01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Cheers02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers02.mp3"
+}
+
+"Soldier.Cheers03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers03.mp3"
+}
+
+"Soldier.Cheers04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers04.mp3"
+}
+
+"Soldier.Cheers05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers05.mp3"
+}
+
+"Soldier.Cheers06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers06.mp3"
+}
+
+"Soldier.CloakedSpy01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cloakedspy01.mp3"
+}
+
+"Soldier.CloakedSpy02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cloakedspy02.mp3"
+}
+
+"Soldier.CloakedSpy03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cloakedspy03.mp3"
+}
+
+"Soldier.CloakedSpyIdentify01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cloakedspyidentify01.mp3"
+}
+
+"Soldier.CloakedSpyIdentify02" // Soldier
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	//"wave"			"vo/customclass/mercenary/mercenary_cloakedspyidentify02.mp3"
+	"wave"			"vo/customclass/mercenary/mercenary_cloakedspyidentify10.mp3"
+}
+
+"Soldier.CloakedSpyIdentify03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cloakedspyidentify05.mp3"
+}
+
+"Soldier.CloakedSpyIdentify04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cloakedspyidentify03.mp3"
+}
+
+"Soldier.CloakedSpyIdentify05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cloakedspyidentify04.mp3"
+}
+
+"Soldier.CloakedSpyIdentify06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cloakedspyidentify07.mp3"
+}
+
+"Soldier.CloakedSpyIdentify07"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cloakedspyidentify06.mp3"
+}
+
+"Soldier.CloakedSpyIdentify08"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cloakedspyidentify08.mp3"
+}
+
+"Soldier.CloakedSpyIdentify09"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cloakedspyidentify09.mp3"
+}
+
+"Soldier.CloakedSpyIdentify10" // Civ
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cloakedspyidentify11.mp3"
+}
+
+"Soldier.CloakedSpyIdentify11" // Merc
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cloakedspyidentify10.mp3"
+}
+
+"Soldier.Go01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_go01.mp3"
+}
+
+"Soldier.Go02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_go02.mp3"
+}
+
+"Soldier.Go03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_go03.mp3"
+}
+
+"Soldier.GoodJob01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_goodjob01.mp3"
+}
+
+"Soldier.GoodJob02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_goodjob02.mp3"
+}
+
+"Soldier.GoodJob03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_goodjob03.mp3"
+}
+
+"Soldier.HeadLeft01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_headleft01.mp3"
+}
+
+"Soldier.HeadLeft02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_headleft02.mp3"
+}
+
+"Soldier.HeadLeft03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_headleft03.mp3"
+}
+
+"Soldier.HeadRight01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_headright01.mp3"
+}
+
+"Soldier.HeadRight02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_headright02.mp3"
+}
+
+"Soldier.HeadRight03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_headright03.mp3"
+}
+
+"Soldier.HelpMe01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_helpme01.mp3"
+}
+
+"Soldier.HelpMe02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_helpme02.mp3"
+}
+
+"Soldier.HelpMe03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_helpme03.mp3"
+}
+
+"Soldier.HelpMeCapture01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_helpme01.mp3"
+}
+
+"Soldier.HelpMeCapture02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_helpme02.mp3"
+}
+
+"Soldier.HelpMeCapture03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_helpme03.mp3"
+}
+
+"Soldier.HelpMeDefend01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_helpme01.mp3"
+}
+
+"Soldier.HelpMeDefend02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_helpme02.mp3"
+}
+
+"Soldier.HelpMeDefend03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_helpme03.mp3"
+}
+
+"Soldier.HelpMeDefend04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_helpme03.mp3"
+}
+
+"Soldier.Incoming01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_incoming01.mp3"
+}
+
+"Soldier.Jeers01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization01.mp3"
+}
+
+"Soldier.Jeers02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization02.mp3"
+}
+
+"Soldier.Jeers03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization03.mp3"
+}
+
+"Soldier.Jeers04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization04.mp3"
+}
+
+"Soldier.Jeers05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization05.mp3"
+}
+
+"Soldier.Jeers06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization06.mp3"
+}
+
+"Soldier.Jeers07"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization06.mp3"
+}
+
+"Soldier.Jeers08"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization05.mp3"
+}
+
+"Soldier.Jeers09"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization04.mp3"
+}
+
+"Soldier.Jeers10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization03.mp3"
+}
+
+"Soldier.Jeers11"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization02.mp3"
+}
+
+"Soldier.Jeers12"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization01.mp3"
+}
+
+"Soldier.LaughEvil01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_laughevil01.mp3"
+}
+
+"Soldier.LaughEvil02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_laughevil02.mp3"
+}
+
+"Soldier.LaughEvil03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_laughevil03.mp3"
+}
+
+"Soldier.LaughHappy01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_laughhappy01.mp3"
+}
+
+"Soldier.LaughHappy02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_laughhappy02.mp3"
+}
+
+"Soldier.LaughHappy03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_laughhappy03.mp3"
+}
+
+"Soldier.LaughLong01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_laughevil01.mp3"
+}
+
+"Soldier.LaughLong02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_laughevil02.mp3"
+}
+
+"Soldier.LaughLong03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_laughevil03.mp3"
+}
+
+"Soldier.LaughShort01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_laughhappy01.mp3"
+}
+
+"Soldier.LaughShort02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_laughhappy02.mp3"
+}
+
+"Soldier.LaughShort03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_laughhappy03.mp3"
+}
+
+"Soldier.LaughShort04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_go04.mp3"
+}
+
+"Soldier.Medic01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_medic01.mp3"
+}
+
+"Soldier.Medic02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_medic02.mp3"
+}
+
+"Soldier.Medic03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_medic03.mp3"
+}
+
+"Soldier.MoveUp01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_moveup01.mp3"
+}
+
+"Soldier.MoveUp02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_moveup02.mp3"
+}
+
+"Soldier.MoveUp03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_moveup03.mp3"
+}
+
+"Soldier.NeedDispenser01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_needdispenser01.mp3"
+}
+
+"Soldier.NeedSentry01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_needsentry01.mp3"
+}
+
+"Soldier.NeedTeleporter01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_needteleporter01.mp3"
+}
+
+"Soldier.NegativeVocalization01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization01.mp3"
+}
+
+"Soldier.NegativeVocalization02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization02.mp3"
+}
+
+"Soldier.NegativeVocalization03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization03.mp3"
+}
+
+"Soldier.NegativeVocalization04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization04.mp3"
+}
+
+"Soldier.NegativeVocalization05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization05.mp3"
+}
+
+"Soldier.NegativeVocalization06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_negativevocalization06.mp3"
+}
+
+"Soldier.NiceShot01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_niceshot01.mp3"
+}
+
+"Soldier.NiceShot02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_niceshot02.mp3"
+}
+
+"Soldier.NiceShot03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_niceshot03.mp3"
+}
+
+"Soldier.No01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_no01.mp3"
+}
+
+"Soldier.No02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_no02.mp3"
+}
+
+"Soldier.No03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_no03.mp3"
+}
+
+"Soldier.PainCrticialDeath01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_paincrticialdeath01.mp3"
+}
+
+"Soldier.PainCrticialDeath02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_paincrticialdeath02.mp3"
+}
+
+"Soldier.PainCrticialDeath03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_paincrticialdeath03.mp3"
+}
+
+"Soldier.PainCrticialDeath04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_paincrticialdeath04.mp3"
+}
+
+"Soldier.PainSevere01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_painsevere01.mp3"
+}
+
+"Soldier.PainSevere02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_painsevere02.mp3"
+}
+
+"Soldier.PainSevere03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_painsevere03.mp3"
+}
+
+"Soldier.PainSevere04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_painsevere04.mp3"
+}
+
+"Soldier.PainSevere05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_painsevere05.mp3"
+}
+
+"Soldier.PainSevere06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_painsevere06.mp3"
+}
+
+"Soldier.PainSharp01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_painsharp01.mp3"
+}
+
+"Soldier.PainSharp02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_painsharp02.mp3"
+}
+
+"Soldier.PainSharp03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_painsharp03.mp3"
+}
+
+"Soldier.PainSharp04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_painsharp04.mp3"
+}
+
+"Soldier.PainSharp05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_painsharp05.mp3"
+}
+
+"Soldier.PainSharp06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_painsharp06.mp3"
+}
+
+"Soldier.PainSharp07"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_painsharp07.mp3"
+}
+
+"Soldier.PainSharp08"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_painsharp08.mp3"
+}
+
+"Soldier.PositiveVocalization01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_positivevocalization01.mp3"
+}
+
+"Soldier.PositiveVocalization02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_positivevocalization02.mp3"
+}
+
+"Soldier.PositiveVocalization03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_positivevocalization03.mp3"
+}
+
+"Soldier.PositiveVocalization04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_positivevocalization04.mp3"
+}
+
+"Soldier.PositiveVocalization05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_positivevocalization05.mp3"
+}
+
+"Soldier.SentryAhead01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_needsentry01.mp3"
+}
+
+"Soldier.SentryAhead02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_needsentry01.mp3"
+}
+
+"Soldier.SentryAhead03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_needsentry01.mp3"
+}
+
+"Soldier.SpecialCompleted-AssistedKill01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_specialcompleted01.mp3"
+}
+
+"Soldier.SpecialCompleted01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_specialcompleted01.mp3"
+}
+
+"Soldier.SpecialCompleted02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_specialcompleted02.mp3"
+}
+
+"Soldier.SpecialCompleted03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_specialcompleted03.mp3"
+}
+
+"Soldier.SpecialCompleted04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_specialcompleted05.mp3"
+}
+
+"Soldier.SpecialCompleted05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_specialcompleted05.mp3"
+}
+
+"Soldier.StandOnThePoint01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_needteleporter01.mp3"
+}
+
+"Soldier.StandOnThePoint02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_domination02.mp3"
+}
+
+"Soldier.StandOnThePoint03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_domination03.mp3"
+}
+
+"Soldier.Taunts01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts07"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts08"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts09"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts11"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts12"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts13"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts14"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts15"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts16"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts17"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts18"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts19"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts20"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Taunts21"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.Thanks01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_thanks01.mp3"
+}
+
+"Soldier.Thanks02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_thanks02.mp3"
+}
+
+"Soldier.ThanksForTheHeal01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_thanks01.mp3"
+}
+
+"Soldier.ThanksForTheHeal02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_thanks02.mp3"
+}
+
+"Soldier.ThanksForTheHeal03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_thanks02.mp3"
+}
+
+"Soldier.ThanksForTheTeleporter01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_needteleporter01.mp3"
+}
+
+"Soldier.ThanksForTheTeleporter02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_needteleporter01.mp3"
+}
+
+"Soldier.ThanksForTheTeleporter03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_needteleporter01.mp3"
+}
+
+"Soldier.Yes01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_yes01.mp3"
+}
+
+"Soldier.Yes02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_yes02.mp3"
+}
+
+"Soldier.Yes03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_yes03.mp3"
+}
+
+"Soldier.Yes04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/customclass/mercenary/mercenary_yes04.mp3"
+}
+
+"Soldier.DirectHitTaunt01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.DirectHitTaunt02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.DirectHitTaunt03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.DirectHitTaunt04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.DominationDemoman01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination01.mp3"
+}
+
+"Soldier.DominationDemoman02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination02.mp3"
+}
+
+"Soldier.DominationDemoman03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination03.mp3"
+}
+
+"Soldier.DominationDemoman04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination04.mp3"
+}
+
+"Soldier.DominationDemoman05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination05.mp3"
+}
+
+"Soldier.DominationDemoman06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationDemonmanUpdate01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination01.mp3"
+}
+
+"Soldier.DominationDemonmanUpdate02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination02.mp3"
+}
+
+"Soldier.DominationDemonmanUpdate03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination03.mp3"
+}
+
+"Soldier.DominationDemonmanUpdate04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination04.mp3"
+}
+
+"Soldier.DominationDemonmanUpdate05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination05.mp3"
+}
+
+"Soldier.DominationEngineer01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination01.mp3"
+}
+
+"Soldier.DominationEngineer02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination02.mp3"
+}
+
+"Soldier.DominationEngineer03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination03.mp3"
+}
+
+"Soldier.DominationEngineer04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination04.mp3"
+}
+
+"Soldier.DominationEngineer05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination05.mp3"
+}
+
+"Soldier.DominationEngineer06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationHeavy01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination01.mp3"
+}
+
+"Soldier.DominationHeavy02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination02.mp3"
+}
+
+"Soldier.DominationHeavy03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination03.mp3"
+}
+
+"Soldier.DominationHeavy04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination04.mp3"
+}
+
+"Soldier.DominationHeavy05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination05.mp3"
+}
+
+"Soldier.DominationHeavy06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationHeavy07"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationMedic01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination01.mp3"
+}
+
+"Soldier.DominationMedic02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination02.mp3"
+}
+
+"Soldier.DominationMedic03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination03.mp3"
+}
+
+"Soldier.DominationMedic04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination04.mp3"
+}
+
+"Soldier.DominationMedic05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination05.mp3"
+}
+
+"Soldier.DominationMedic06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationMedic07"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationPyro01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination01.mp3"
+}
+
+"Soldier.DominationPyro02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination02.mp3"
+}
+
+"Soldier.DominationPyro03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination03.mp3"
+}
+
+"Soldier.DominationPyro04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination04.mp3"
+}
+
+"Soldier.DominationPyro05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination05.mp3"
+}
+
+"Soldier.DominationPyro06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationPyro07"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationPyro08"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationPyro09"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationScout01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination01.mp3"
+}
+
+"Soldier.DominationScout02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination02.mp3"
+}
+
+"Soldier.DominationScout03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination03.mp3"
+}
+
+"Soldier.DominationScout04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination04.mp3"
+}
+
+"Soldier.DominationScout05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination05.mp3"
+}
+
+"Soldier.DominationScout06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationScout07"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationScout08"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationScout09"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationScout10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationScout11"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination01.mp3"
+}
+
+"Soldier.DominationSniper01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination01.mp3"
+}
+
+"Soldier.DominationSniper02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination02.mp3"
+}
+
+"Soldier.DominationSniper03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination03.mp3"
+}
+
+"Soldier.DominationSniper04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination04.mp3"
+}
+
+"Soldier.DominationSniper05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination05.mp3"
+}
+
+"Soldier.DominationSniper06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationSniper07"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationSniper08"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationSniper09"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationSniper10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationSniper11"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination01.mp3"
+}
+
+"Soldier.DominationSniper12"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination02.mp3"
+}
+
+"Soldier.DominationSniper13"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination03.mp3"
+}
+
+"Soldier.DominationSniper14"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination04.mp3"
+}
+
+"Soldier.DominationSoldier01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination01.mp3"
+}
+
+"Soldier.DominationSoldier02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination02.mp3"
+}
+
+"Soldier.DominationSoldier03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination03.mp3"
+}
+
+"Soldier.DominationSoldier04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination04.mp3"
+}
+
+"Soldier.DominationSoldier05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination05.mp3"
+}
+
+"Soldier.DominationSoldier06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationSpy01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination01.mp3"
+}
+
+"Soldier.DominationSpy02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination02.mp3"
+}
+
+"Soldier.DominationSpy03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination03.mp3"
+}
+
+"Soldier.DominationSpy04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination04.mp3"
+}
+
+"Soldier.DominationSpy05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination05.mp3"
+}
+
+"Soldier.DominationSpy06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationSpy07"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.DominationSpy08"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_domination06.mp3"
+}
+
+"Soldier.HatOverHeartTaunt01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.HatOverHeartTaunt02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.HatOverHeartTaunt03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.HatOverHeartTaunt04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.HatOverHeartTaunt05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.HatOverHeartTaunt06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.KaBoomAlts01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_no01.mp3"
+}
+
+"Soldier.KaBoomAlts02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_no02.mp3"
+}
+
+"Soldier.KaBoomAlts03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_no03.mp3"
+}
+
+"Soldier.PickAxeTaunt01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.PickAxeTaunt02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.PickAxeTaunt03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.PickAxeTaunt04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+"Soldier.PickAxeTaunt05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"vo/customclass/mercenary/mercenary_cheers01.mp3"
+}
+
+// ------------------------------------------------------------------------------------ //
+// OVERHEAL PILL
+// ------------------------------------------------------------------------------------ //
+"OverhealPillRattle.Touch" //Plays if it overhealed the player
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"VOL_NORM"
+    "soundlevel" "SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"items/pills/pill_heal1.mp3"
+		"wave"	"items/pills/pill_heal2.mp3"
+		"wave"	"items/pills/pill_heal3.mp3"
+		"wave"	"items/pills/pill_heal4.mp3"
+		"wave"	"items/pills/pill_heal5.mp3"
+		"wave"	"items/pills/pill_heal6.mp3"
+	}
+}
+
+// DM Music
+Deathmatch.B4DM_AFG
+{
+    channel     CHAN_STATIC
+    soundlevel  SNDLVL_NONE
+    volume      1.0
+    pitch       100
+    looping     1
+
+    wave        "music/deathmatch/b4dm_afg.wav"
+}
+Deathmatch.B4DM_AFG_Wait
+{
+    channel     CHAN_STATIC
+    soundlevel  SNDLVL_NONE
+    volume      1.0
+    pitch       100
+    looping     1
+
+    wave        "music/deathmatch/afg_waiting.wav"
+}
+Deathmatch.B4DM_WIN
+{
+    channel     CHAN_STATIC
+    soundlevel  SNDLVL_NONE
+    volume      1.0
+    pitch       100
+
+    wave        "music/deathmatch/winpanel/dm_winpanel_top3.mp3"
+}
+Deathmatch.B4DM_LOSE
+{
+    channel     CHAN_STATIC
+    soundlevel  SNDLVL_NONE
+    volume      1.0
+    pitch       100
+
+    wave        "music/deathmatch/winpanel/dm_winpanel_lose.mp3"
+}
+
+"Game.YourTeamLost"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+	wave        "music/deathmatch/winpanel/dm_winpanel_lose.mp3"
+}
+
+"Game.YourTeamWon"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+	wave        "music/deathmatch/winpanel/dm_winpanel_top3.mp3"
+}
+
+"Game.Revenge"
+{
+	"channel"  "CHAN_STATIC"
+	"volume"  ".65"
+	"pitch"  "100"
+	"soundlevel"   "SNDLVL_NORM"
+	"wave"  "#misc/dm_revenge.mp3"
+}
+
+"Game.Domination"
+{
+	"channel"  "CHAN_STATIC"
+ 	"volume"  ".65"
+ 	"pitch"  "100"
+ 	"soundlevel"   "SNDLVL_NORM"
+	"wave"  "#misc/dm_domination.mp3"
+}
+
+"Game.Nemesis"
+{
+ 	"channel"  "CHAN_STATIC"
+ 	"volume"  ".65"
+ 	"pitch"  "100"
+ 	"soundlevel"   "SNDLVL_NORM"
+	"wave"  "#misc/dm_nemesis.mp3"
+}
+
+"Weapon_ShotgunMerc.Draw"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	".5"
+	"wave"		"weapons/draw_shotgun_merc.wav"
+}
+
+"Weapon_Sten.BoltPull"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	"1.0"
+	"wave"		")weapons/draw_sten_bolt_pull.wav"
+}

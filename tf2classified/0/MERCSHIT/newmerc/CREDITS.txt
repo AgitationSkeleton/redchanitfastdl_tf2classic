@@ -1,0 +1,44 @@
+MAPS
+iiboharz - DM 2Fort
+iiboharz & MacD11/Mack-O - DM Wiseau, DM Offblast
+OneFourth - DM Lineage
+Muddy - DM Grain
+AgitationSkeleton/AlphaBlaster/VioLink (Me) - DM Hangar Dev, DM Overkill Dev, Goonsquad maps
+Rummy - Blockfortress
+
+MODELS
+Blaholtzen/Badgerpig & Maxxy - Mercenary model, concept, viewmodel
+Hex, Coolchou Zhao - Mercenary animations (Thirdperson, viewmodel)
+Sedisocks - Sten gun model
+Bunbijou - Zombie (Skeleton) model
+Batandy (I think?) - DM Pill model
+Valve (Meet the Medic assets) - Crowbar model. Unknown who did the 4-team textures.
+
+TEXTURES / PARTICLES / ETC VISUAL
+Game Zombie - Merc renders, possibly TF2C presplit item renders (Crowbar, Sten)
+Suomimies55 (I think? Not sure) - Open Fortress Merc leaderboard icon
+FissionMetroid101 - Respawn particles
+AgitationSkeleton/AlphaBlaster/VioLink (me) - Zombie skeleton renders
+
+SOUNDS
+MrModez - At Fortress' Gate
+Stachekip - Mercenary voice, crowbar sounds, respawn sounds
+Omniary - Pill Sounds, possibly Sten Gun sounds
+Meta(?) - Infection death sounds
+Magnus/GoldenPickaxe - The Dead Have Risen Music
+id Software (Quake III Arena) - Zombie skeleton (Bones) pain/jump/death/taunt sounds
+
+VSCRIPT
+AISloppa (ChatGPT) - DM Vscript, orchestrated by me... after MUCH trial and error. Mostly error.
+
+Likely also necessary to credit, but I'm not sure what for yet, don't kill me pl0x, I want to provide proper attribution but my memory is bad
+and this shit isn't super well documented for me to check:
+EonDynamo
+DrudlyClean
+PigPig
+KayDemonLP
+the entire TF2C team circa 2015-2017
+the entire Open Fortress team circa 2019-2021
+Possibly the TDC team but I haven't used anything from TDC yet as of this writing, not counting presplit assets
+
+I'm not certain who made the pill or leaderboard icon; If you know please let me know and I will update the credits to properly accredit them.
